@@ -17,14 +17,14 @@ function Navbar(props) {
       </div>
       { showMenu && (
         <div className='side-pane'>
-          <Link to='/' className='m-top--48'>
+          <Link to='/' className='m-top--48' onClick={() => setShowMenu(!showMenu)}>
             Home
           </Link>
-          <Link to='/work_history'>
+          <Link to='/work_history' onClick={() => setShowMenu(!showMenu)}>
             Work History
           </Link>
           <div className='side-pane-logo'>
-            <Link to='/'>
+            <Link to='/' onClick={() => setShowMenu(!showMenu)}>
               <img src={Logo} alt='Preston Matheson'/>
             </Link>
           </div>
