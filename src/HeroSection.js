@@ -13,7 +13,7 @@ function HeroSection(props) {
           </div>
         )}
         {!props.title && (
-          <img src={Logo} />
+          <img src={Logo} alt='Preston Matheson'/>
         )}
       </div>
     </React.Fragment>

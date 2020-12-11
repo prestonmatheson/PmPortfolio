@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -26,7 +25,7 @@ function Navbar(props) {
           </Link>
           <div className='side-pane-logo'>
             <Link to='/'>
-              <img src={Logo} />
+              <img src={Logo} alt='Preston Matheson'/>
             </Link>
           </div>
         </div>
