@@ -9,18 +9,18 @@ function WorkHistory(props) {
       <div className='main-content'>
         <div className='card m-vertical--16'>
           <h5 className='p--16'>
-            Diamond SIS
-          </h5>
-          <div className='p--16'>
-            Time frame: May 2017 - October 2018
-          </div>
-        </div>
-        <div className='card m-vertical--16'>
-          <h5 className='p--16'>
             Lightspeed Systems
           </h5>
           <div className='p--16'>
             Time frame: Febuary 2019 - Present
+          </div>
+        </div>
+        <div className='card m-vertical--16'>
+          <h5 className='p--16'>
+            Diamond SIS
+          </h5>
+          <div className='p--16'>
+            Time frame: May 2017 - October 2018
           </div>
         </div>
         <div className='card m-vertical--16'>
